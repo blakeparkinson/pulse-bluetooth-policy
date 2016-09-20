@@ -14,7 +14,6 @@
         <engine name="cordova" version=">=3.0.0" />
         </engines>
 
-    </platform>
     <platform name="ios">
 
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
