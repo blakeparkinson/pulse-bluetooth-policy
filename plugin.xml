@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="pulse-bluetooth-policy" version="1.0.0">
+
+    <name>PulseBluetoothPolicy</name>
+    <description></description>
+    <license>Apache 2.0</license>
+    <keywords>keywords</keywords>
+
+    <repo>https://github.com/blakeparkinson/pulse-bluetooth-policy.git</repo>
+    <issue>https://github.com/blakeparkinson/pulse-bluetooth-policy/issues</issue>
+
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+        </engines>
+
+    </platform>
+    <platform name="ios">
+
+        <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
+          <string>Pulse uses bluetooth to transfer photos from your camera to your device</string>
+        </config-file>
+    </platform>
+</plugin>
