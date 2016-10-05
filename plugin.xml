@@ -17,7 +17,7 @@
     <platform name="ios">
 
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
-          <string>Pulse uses bluetooth to transfer photos from your camera to your device</string>
+          <string>This app uses bluetooth to transfer photos from your camera to your device</string>
         </config-file>
     </platform>
 </plugin>
