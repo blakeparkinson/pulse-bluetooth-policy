@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-app-version",
+  "name": "pulse-bluetooth-policy",
   "version": "0.1.9",
   "description": "Cordova plugin to return the pulse bluetooth policy",
   "scripts": {
