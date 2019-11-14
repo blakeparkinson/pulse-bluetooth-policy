@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-app-version",
+  "version": "0.1.9",
+  "description": "Cordova plugin to return the pulse bluetooth policy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakeparkinson/pulse-bluetooth-policy.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "app",
+    "version",
+    "appversion",
+    "plugin"
+  ],
+  "author": "blakeparkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeparkinson/pulse-bluetooth-policy/issues"
+  },
+  "homepage": "https://github.com/blakeparkinson/pulse-bluetooth-policy#readme"
+}
